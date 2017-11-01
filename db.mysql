@@ -1,0 +1,8 @@
+CREATE TABLE `oc_union_login` (
+  `union_login_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `related_customer_id` int(11) DEFAULT NULL,
+  `remote_from` enum('facebook') DEFAULT 'facebook',
+  `remote_key` varchar(255) DEFAULT NULL,
+  `date_added` datetime DEFAULT NULL,
+  PRIMARY KEY (`union_login_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
