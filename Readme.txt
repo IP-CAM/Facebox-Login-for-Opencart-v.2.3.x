@@ -1,3 +1,5 @@
+Facebox Login for Opencart 2.3
+
 File Add:
 1、catalog/controller/account/fblogin.php
 2、catalog/model/account/unionlogin.php
@@ -6,9 +8,9 @@ File Add:
 File Modify:
 1、view/theme/default/template/account/login.tpl
 
-Database
+Database(db.mysql)
 Table Add:
 1、oc_union_login
 
-fblogin Api Id Modify:
-Line 110:  on file view/theme/default/template/account/login.tpl
+fblogin ApiId:
+Line 110: view/theme/default/template/account/login.tpl
